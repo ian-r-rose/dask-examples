@@ -6,7 +6,6 @@ dependencies:
   - dask=0.20
   - dask-ml=0.10.0
   - distributed=1.24
-  - jupyterlab=0.35.1
   - nodejs=8.9
   - numpy
   - pandas
@@ -20,6 +19,7 @@ dependencies:
   - bottleneck
   - py-xgboost
   - pip:
+    - git+https://github.com/Zsailer/jupyterlab.git@workspace-flag
     - graphviz
     - dask_xgboost
     - seaborn
