@@ -15,8 +15,8 @@ labextension:
     class: 'LocalCluster'
     args: []
     kwargs:
-      n_workers: 4
-      threads_per_worker: 1
+      'n_workers': 4
+      'threads_per_worker': 1
   default:
     workers: null
     adapt: null
