@@ -7,7 +7,6 @@ dependencies:
   - dask-image=0.2.0
   - dask-ml=0.12.0
   - distributed=1.26
-  - jupyterlab=0.35.1
   - nodejs=8.9
   - numpy
   - pandas
@@ -25,3 +24,5 @@ dependencies:
   - pip:
     - dask_xgboost
     - mimesis
+    - jupyterlab==1.0.0a3
+    - dask-labextension==0.3.2
