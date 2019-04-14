@@ -7,15 +7,5 @@ distributed:
       limit: 5s
 
 labextension:
-  factory:
-    module: 'dask.distributed'
-    class: 'LocalCluster'
-    args: []
-    kwargs:
-      'n_workers': 4
-      'threads_per_worker': 1
-  default:
-    workers: null
-    adapt: null
   initial:
     - name: "Demo Cluster"
